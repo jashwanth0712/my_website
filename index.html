@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jashwanth</title>
+    <script src="app.js"></script>
+    <script src="particles.js"></script>
+    <link rel='stylesheet' href="style.css">
+</head>
+<body>
+
+  <header id="header">
+    <a href="#" class="logo ">j</a>
+    <ul>
+        <li class="buttons"><a href="index.html">Home</a></li>
+        <li class="buttons"><a href="#">Bio</a></li>
+        <li class="buttons"><a href="#">projects</a></li>
+        <li class="buttons"><a href="#">contact</a></li>
+    </ul>
+</header>
+<ul id="profile_photo" class="profile_photo">
+    <li><img class="jash" src="jashwanth_profile.jpg" alt="profile_photo"><li>
+    <li><h1>Hi,I'm Jashwanth</h1><p>i make crazy games , apps  and websites</p><p class="as_follows">some of the projects i made are as follows</p></li>
+</ul> 
+
+<section class='container'>
+    <div class="card">
+        <div class="content">
+            <img src="project2.png" href="circle">
+            <br><br><br><br><br>
+            <h2>2</h2>
+            <h3>Color Master</h3>
+            <p>It is a android game made with unity ,this game includes the usage of highscore, ads and other basic features that a game has
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <img src="project1.png" href="circle">
+            <br><br><br><br><br>
+            <h2>1</h2>
+            <h3>Escape Artist</h3>
+            <p>my first game made with unity engine, this game has levels and endless mode, ads,shop to buy new skins,new enemies generated randomly and all other features that a basic game has
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
+    
+</section>
+
+    <script type="text/javascript" src="vanilla-tilt.js">
+    </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare:true,
+            "max-glare":1,
+        });
+        VanillaTilt.init(document.querySelectorAll(".buttons"), {
+            max: 25,
+            speed: 400,
+        });
+        VanillaTilt.init(document.querySelectorAll(".jash"), {
+            max: 5,
+            speed: 400,
+        });
+    </script>
+
+
+
+</body>
+</html>
